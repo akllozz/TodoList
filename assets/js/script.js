@@ -63,7 +63,7 @@ btnAgregar.addEventListener("click", () => {
         descripcion: tareaInput.value,
         checkbox:false
     }
-    
+
     listadoTareas.push(nuevaTarea)
     tareaInput.value = ""
     renderTareas()
