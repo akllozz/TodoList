@@ -36,7 +36,6 @@ function tareaRealizada() {
 function crearId(){
         idBase +=1
     return idBase
-
 }
 
 function renderTareas(){
@@ -64,6 +63,7 @@ btnAgregar.addEventListener("click", () => {
         descripcion: tareaInput.value,
         checkbox:false
     }
+    
     listadoTareas.push(nuevaTarea)
     tareaInput.value = ""
     renderTareas()
