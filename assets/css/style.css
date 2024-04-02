@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    font-family: 'Poppins';
+}
+
+body{
+    color: #430A5D;
+}
+
+section{
+    border-radius: 15px;
+}
+
+.bg-off {
+    background-color: #e8d5f4;
+}
+
+.btn{
+    background-color: #7743DB;
+    color:#f6ecfc;
+}
+
+.btn:hover{
+    background-color: #C3ACD0;
+}
+
+::placeholder {
+    color: #430A5D;
+}
+button{
+
+    margin-top: 12px;
+}
+
+button:active{
+    background-color: #7743DB;
+}
+
+.colcentro{
+    text-align: center; 
+}
+
+.btn-close{
+    margin: 0;
+}
+
+table{
+    border-radius: 20px;
+}
+
+tbody tr:hover td{
+    background-color: #f0d5ff;
+}
+
+.tint {
+    color: #380252 !important;
+}   
+
+.tinta {
+    color: #6b069a !important;
+}  
+
+
+tbody tr:last-child th:first-child {
+    border-bottom-left-radius: 6px;
+  }
+  
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+  }
+
+thead tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+  }
+  
+thead tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+  }
+
